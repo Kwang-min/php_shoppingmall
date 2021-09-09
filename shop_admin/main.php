@@ -1,3 +1,6 @@
+<?php
+  include "lib.php"
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +10,8 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>hihihihihihihi</h1>
+
+  
+  우측메뉴
 </body>
 </html>
