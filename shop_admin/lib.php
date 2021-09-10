@@ -25,9 +25,4 @@
     }
     
   }
-
-  // function dbconn() {
-  //   $conn =  mysqli_connect('localhost', 'root', '111111', 'php_shoppingmall');
-  //   return $conn;
-  // }
 ?>

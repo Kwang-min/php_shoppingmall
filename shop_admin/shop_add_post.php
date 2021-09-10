@@ -4,7 +4,7 @@
   $conn = mysqli_connect('localhost', 'root', '111111', 'php_shoppingmall');
 
   if ($_FILES['img']['tmp_name']) {
-    move_uploaded_file($_FILES['img']['tmp_name'],__DIR__."/shop/{$_FILES['img']['name']}");
+    move_uploaded_file($_FILES['img']['tmp_name'],__DIR__."/shop/data/{$_FILES['img']['name']}");
 
   }
   

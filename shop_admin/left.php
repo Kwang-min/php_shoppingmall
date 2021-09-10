@@ -13,6 +13,7 @@
   
   
   좌측메뉴
+  <li><a href="shop_list.php" target=main>상품목룍</li>
   <li><a href="shop_add.php" target=main>상품등록</li>
 
 </body>
