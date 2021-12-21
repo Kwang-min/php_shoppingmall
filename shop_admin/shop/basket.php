@@ -47,3 +47,4 @@
 </table>
 
 <a href="list.php">[상품 목록으로]</a>
+<a href="order.php">[주문하기]</a>
