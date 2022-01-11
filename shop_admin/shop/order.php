@@ -16,17 +16,19 @@ $conn = mysqli_connect('localhost', 'root', '111111', 'php_shoppingmall');
 <script>
   function chk_form() {
     var f = document.order_info;
-
+  
     if(!f.password.value) {
       alert('비밀번호를 입력해주세요');
       f.password.focus();
       return false;
     }
+
     if(!f.name.value) {
       alert('이름을 입력해주세요');
-      f.name.focus();
       return false;
+      
     }
+    
     return true;
   }
 </script>
@@ -57,10 +59,6 @@ $conn = mysqli_connect('localhost', 'root', '111111', 'php_shoppingmall');
       <td><input type="text" name="hphone1" size="3">-
       <input type="text" name="hphone2" size="4">-
       <input type="text" name="hphone3" size="4"></td>
-    </tr>
-    <tr>
-      <td>이름</td>
-      <td><input type="text" name="name" size="10"></td>
     </tr>
     <tr>
       <td>우편번호</td>

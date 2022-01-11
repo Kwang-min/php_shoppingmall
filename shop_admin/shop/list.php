@@ -4,7 +4,8 @@
   $conn = mysqli_connect('localhost', 'root', '111111', 'php_shoppingmall');
 
 ?>
-
+<a href="basket.php">장바구니</a>
+<a href="reservation.php">배송조회</a>
 <table border=1 width=100%>
 
 <?php

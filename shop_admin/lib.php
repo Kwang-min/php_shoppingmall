@@ -1,6 +1,6 @@
 <?php
-  $id = "shop";
-  $pw = "1234";
+  $id = "root";
+  $pw = "111111";
 
   function auth() {
     header("WWW-authenticate:basic realm=\"관리자모드\"");
